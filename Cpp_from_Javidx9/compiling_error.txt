@@ -1,0 +1,315 @@
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:127:2: error: #error Please enable UNICODE for your compiler! VS: Project Properties -> General -> Character Set -> Use Unicode. Thanks! - Javidx9
+ #error Please enable UNICODE for your compiler! VS: Project Properties -> General -> \
+  ^~~~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'bool olcSprite::Save(std::__cxx11::wstring)':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:280:3: error: '_wfopen_s' was not declared in this scope
+   _wfopen_s(&f, sFile.c_str(), L"wb");
+   ^~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:280:3: note: suggested alternative: '_wfopen'
+   _wfopen_s(&f, sFile.c_str(), L"wb");
+   ^~~~~~~~~
+   _wfopen
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'bool olcSprite::Load(std::__cxx11::wstring)':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:302:3: error: '_wfopen_s' was not declared in this scope
+   _wfopen_s(&f, sFile.c_str(), L"rb");
+   ^~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:302:3: note: suggested alternative: '_wfopen'
+   _wfopen_s(&f, sFile.c_str(), L"rb");
+   ^~~~~~~~~
+   _wfopen
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: At global scope:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1328:7: error: 'thread' in namespace 'std' does not name a type
+  std::thread m_AudioThread;
+       ^~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1328:2: note: 'std::thread' is defined in header '<thread>'; did you forget to '#include <thread>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:140:1:
++#include <thread>
+ 
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1328:2:
+  std::thread m_AudioThread;
+  ^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1331:7: error: 'condition_variable' in namespace 'std' does not name a type
+  std::condition_variable m_cvBlockNotZero;
+       ^~~~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1331:2: note: 'std::condition_variable' is defined in header '<condition_variable>'; did you forget to '#include <condition_variable>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:140:1:
++#include <condition_variable>
+ 
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1331:2:
+  std::condition_variable m_cvBlockNotZero;
+  ^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1332:7: error: 'mutex' in namespace 'std' does not name a type
+  std::mutex m_muxBlockNotZero;
+       ^~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1332:2: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:140:1:
++#include <mutex>
+ 
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1332:2:
+  std::mutex m_muxBlockNotZero;
+  ^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1404:14: error: 'condition_variable' in namespace 'std' does not name a type
+  static std::condition_variable m_cvGameFinished;
+              ^~~~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1404:9: note: 'std::condition_variable' is defined in header '<condition_variable>'; did you forget to '#include <condition_variable>'?
+  static std::condition_variable m_cvGameFinished;
+         ^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1405:14: error: 'mutex' in namespace 'std' does not name a type
+  static std::mutex m_muxGame;
+              ^~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1405:9: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+  static std::mutex m_muxGame;
+         ^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1329:43: error: use of deleted function 'std::atomic<bool>::atomic(const std::atomic<bool>&)'
+  std::atomic<bool> m_bAudioThreadActive = false;
+                                           ^~~~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:138,
+                 from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\atomic:71:5: note: declared here
+     atomic(const atomic&) = delete;
+     ^~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\atomic:75:15: note:   after user-defined conversion: 'constexpr std::atomic<bool>::atomic(bool)'
+     constexpr atomic(bool __i) noexcept : _M_base(__i) { }
+               ^~~~~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1330:43: error: use of deleted function 'std::atomic<unsigned int>::atomic(const std::atomic<unsigned int>&)'
+  std::atomic<unsigned int> m_nBlockFree = 0;
+                                           ^
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:138,
+                 from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\atomic:691:7: note: declared here
+       atomic(const atomic&) = delete;
+       ^~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\atomic:695:17: note:   after user-defined conversion: 'constexpr std::atomic<unsigned int>::atomic(std::atomic<unsigned int>::__integral_type)'
+       constexpr atomic(__integral_type __i) noexcept : __base_type(__i) { }
+                 ^~~~~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1333:37: error: use of deleted function 'std::atomic<_Tp>::atomic(const std::atomic<_Tp>&) [with _Tp = float]'
+  std::atomic<float> m_fGlobalTime = 0.0f;
+                                     ^~~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:138,
+                 from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\atomic:196:7: note: declared here
+       atomic(const atomic&) = delete;
+       ^~~~~~
+c:\mingw\lib\gcc\mingw32\8.2.0\include\c++\atomic:200:17: note:   after user-defined conversion: 'constexpr std::atomic<_Tp>::atomic(_Tp) [with _Tp = float]'
+       constexpr atomic(_Tp __i) noexcept : _M_i(__i) { }
+                 ^~~~~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In constructor 'olcConsoleGameEngine::olcConsoleGameEngine()':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:330:8: error: 'memset' is not a member of 'std'
+   std::memset(m_keyNewState, 0, 256 * sizeof(short));
+        ^~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:330:8: note: suggested alternative: 'merge'
+   std::memset(m_keyNewState, 0, 256 * sizeof(short));
+        ^~~~~~
+        merge
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:331:8: error: 'memset' is not a member of 'std'
+   std::memset(m_keyOldState, 0, 256 * sizeof(short));
+        ^~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:331:8: note: suggested alternative: 'merge'
+   std::memset(m_keyOldState, 0, 256 * sizeof(short));
+        ^~~~~~
+        merge
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:332:8: error: 'memset' is not a member of 'std'
+   std::memset(m_keys, 0, 256 * sizeof(sKeyState));
+        ^~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:332:8: note: suggested alternative: 'merge'
+   std::memset(m_keys, 0, 256 * sizeof(sKeyState));
+        ^~~~~~
+        merge
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'int olcConsoleGameEngine::ConstructConsole(int, int, int, int)':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:381:3: error: 'CONSOLE_FONT_INFOEX' was not declared in this scope
+   CONSOLE_FONT_INFOEX cfi;
+   ^~~~~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:381:3: note: suggested alternative: 'CONSOLE_CURSOR_INFO'
+   CONSOLE_FONT_INFOEX cfi;
+   ^~~~~~~~~~~~~~~~~~~
+   CONSOLE_CURSOR_INFO
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:382:3: error: 'cfi' was not declared in this scope
+   cfi.cbSize = sizeof(cfi);
+   ^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:399:3: error: 'wcscpy_s' was not declared in this scope
+   wcscpy_s(cfi.FaceName, L"Consolas");
+   ^~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:399:3: note: suggested alternative: 'wcscpy'
+   wcscpy_s(cfi.FaceName, L"Consolas");
+   ^~~~~~~~
+   wcscpy
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:400:8: error: 'SetCurrentConsoleFontEx' was not declared in this scope
+   if (!SetCurrentConsoleFontEx(m_hConsole, false, &cfi))
+        ^~~~~~~~~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:400:8: note: suggested alternative: 'GetCurrentPositionEx'
+   if (!SetCurrentConsoleFontEx(m_hConsole, false, &cfi))
+        ^~~~~~~~~~~~~~~~~~~~~~~
+        GetCurrentPositionEx
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:414:48: warning: narrowing conversion of '(((int)((short int)((olcConsoleGameEngine*)this)->olcConsoleGameEngine::m_nScreenWidth)) - 1)' from 'int' to 'SHORT' {aka 'short int'} inside { } [-Wnarrowing]
+   m_rectWindow = { 0, 0, (short)m_nScreenWidth - 1, (short)m_nScreenHeight - 1 };
+                          ~~~~~~~~~~~~~~~~~~~~~~^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:414:76: warning: narrowing conversion of '(((int)((short int)((olcConsoleGameEngine*)this)->olcConsoleGameEngine::m_nScreenHeight)) - 1)' from 'int' to 'SHORT' {aka 'short int'} inside { } [-Wnarrowing]
+   m_rectWindow = { 0, 0, (short)m_nScreenWidth - 1, (short)m_nScreenHeight - 1 };
+                                                     ~~~~~~~~~~~~~~~~~~~~~~~^~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'void olcConsoleGameEngine::Start()':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:803:8: error: 'thread' is not a member of 'std'
+   std::thread t = std::thread(&olcConsoleGameEngine::GameThread, this);
+        ^~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:803:8: note: 'std::thread' is defined in header '<thread>'; did you forget to '#include <thread>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:806:3: error: 't' was not declared in this scope
+   t.join();
+   ^
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:806:3: note: suggested alternative: 'tm'
+   t.join();
+   ^
+   tm
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'void olcConsoleGameEngine::GameThread()':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:954:5: error: 'swprintf_s' was not declared in this scope
+     swprintf_s(s, 256, L"OneLoneCoder.com - Console Game Engine - %s - FPS: %3.2f", m_sAppName.c_str(), 1.0f / fElapsedTime);
+     ^~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:954:5: note: the macro 'swprintf_s' had not yet been defined
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:82: note: it was later defined here
+ #define swprintf_s
+ 
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:955:21: error: cannot convert 'wchar_t*' to 'LPCSTR' {aka 'const char*'}
+     SetConsoleTitle(s);
+                     ^
+In file included from c:\mingw\include\windows.h:43,
+                 from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:78:
+c:\mingw\include\wincon.h:279:31: note:   initializing argument 1 of 'BOOL SetConsoleTitleA(LPCSTR)'
+ WINAPI BOOL SetConsoleTitleA (LPCSTR);
+                               ^~~~~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:970:5: error: 'm_cvGameFinished' was not declared in this scope
+     m_cvGameFinished.notify_one();
+     ^~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In constructor 'olcConsoleGameEngine::olcAudioSample::olcAudioSample(std::__cxx11::wstring)':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1004:4: error: '_wfopen_s' was not declared in this scope
+    _wfopen_s(&f, sWavFile.c_str(), L"rb");
+    ^~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1004:4: note: suggested alternative: '_wfopen'
+    _wfopen_s(&f, sWavFile.c_str(), L"rb");
+    ^~~~~~~~~
+    _wfopen
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'bool olcConsoleGameEngine::CreateAudio(unsigned int, unsigned int, unsigned int, unsigned int)':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1169:3: error: 'm_AudioThread' was not declared in this scope
+   m_AudioThread = std::thread(&olcConsoleGameEngine::AudioThread, this);
+   ^~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1169:3: note: suggested alternative: 'AudioThread'
+   m_AudioThread = std::thread(&olcConsoleGameEngine::AudioThread, this);
+   ^~~~~~~~~~~~~
+   AudioThread
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1169:24: error: 'thread' is not a member of 'std'
+   m_AudioThread = std::thread(&olcConsoleGameEngine::AudioThread, this);
+                        ^~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1169:24: note: 'std::thread' is defined in header '<thread>'; did you forget to '#include <thread>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1172:25: error: 'mutex' is not a member of 'std'
+   std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                         ^~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1172:25: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1172:25: error: 'mutex' is not a member of 'std'
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1172:25: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1172:30: error: template argument 1 is invalid
+   std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                              ^
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1172:35: error: 'm_muxBlockNotZero' was not declared in this scope
+   std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                                   ^~~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1173:3: error: 'm_cvBlockNotZero' was not declared in this scope
+   m_cvBlockNotZero.notify_one();
+   ^~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1173:3: note: suggested alternative: 'm_nBlockCount'
+   m_cvBlockNotZero.notify_one();
+   ^~~~~~~~~~~~~~~~
+   m_nBlockCount
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'void olcConsoleGameEngine::waveOutProc(HWAVEOUT, UINT, DWORD, DWORD)':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1189:25: error: 'mutex' is not a member of 'std'
+   std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                         ^~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1189:25: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1189:25: error: 'mutex' is not a member of 'std'
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1189:25: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1189:30: error: template argument 1 is invalid
+   std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                              ^
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1189:35: error: 'm_muxBlockNotZero' was not declared in this scope
+   std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                                   ^~~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1190:3: error: 'm_cvBlockNotZero' was not declared in this scope
+   m_cvBlockNotZero.notify_one();
+   ^~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1190:3: note: suggested alternative: 'm_nBlockCount'
+   m_cvBlockNotZero.notify_one();
+   ^~~~~~~~~~~~~~~~
+   m_nBlockCount
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'void olcConsoleGameEngine::AudioThread()':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1218:27: error: 'mutex' is not a member of 'std'
+     std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                           ^~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1218:27: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1218:27: error: 'mutex' is not a member of 'std'
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1218:27: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1218:32: error: template argument 1 is invalid
+     std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                                ^
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1218:37: error: 'm_muxBlockNotZero' was not declared in this scope
+     std::unique_lock<std::mutex> lm(m_muxBlockNotZero);
+                                     ^~~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1220:6: error: 'm_cvBlockNotZero' was not declared in this scope
+      m_cvBlockNotZero.wait(lm);
+      ^~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1220:6: note: suggested alternative: 'm_nBlockCount'
+      m_cvBlockNotZero.wait(lm);
+      ^~~~~~~~~~~~~~~~
+      m_nBlockCount
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In member function 'int olcConsoleGameEngine::Error(const wchar_t*)':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1362:110: error: cannot convert 'wchar_t*' to 'LPSTR' {aka 'char*'}
+   FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM, NULL, GetLastError(), MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), buf, 256, NULL);
+                                                                                                              ^~~
+In file included from c:\mingw\include\windows.h:44,
+                 from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:78:
+c:\mingw\include\winbase.h:1616:31: note:   initializing argument 5 of 'DWORD FormatMessageA(DWORD, PCVOID, DWORD, DWORD, LPSTR, DWORD, char**)'
+ (DWORD, PCVOID, DWORD, DWORD, LPSTR, DWORD, va_list *);
+                               ^~~~~
+In file included from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:79:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: In static member function 'static BOOL olcConsoleGameEngine::CloseHandler(DWORD)':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1378:26: error: 'mutex' is not a member of 'std'
+    std::unique_lock<std::mutex> ul(m_muxGame);
+                          ^~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1378:26: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1378:26: error: 'mutex' is not a member of 'std'
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1378:26: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1378:31: error: template argument 1 is invalid
+    std::unique_lock<std::mutex> ul(m_muxGame);
+                               ^
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1378:36: error: 'm_muxGame' was not declared in this scope
+    std::unique_lock<std::mutex> ul(m_muxGame);
+                                    ^~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1379:4: error: 'm_cvGameFinished' was not declared in this scope
+    m_cvGameFinished.wait(ul);
+    ^~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h: At global scope:
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1410:6: error: 'condition_variable' in namespace 'std' does not name a type
+ std::condition_variable olcConsoleGameEngine::m_cvGameFinished;
+      ^~~~~~~~~~~~~~~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1410:1: note: 'std::condition_variable' is defined in header '<condition_variable>'; did you forget to '#include <condition_variable>'?
+ std::condition_variable olcConsoleGameEngine::m_cvGameFinished;
+ ^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1411:6: error: 'mutex' in namespace 'std' does not name a type
+ std::mutex olcConsoleGameEngine::m_muxGame;
+      ^~~~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\olcConsoleGameEngine.h:1411:1: note: 'std::mutex' is defined in header '<mutex>'; did you forget to '#include <mutex>'?
+ std::mutex olcConsoleGameEngine::m_muxGame;
+ ^~~
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp: In function 'int main()':
+D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:286:41: error: cannot convert 'wchar_t*' to 'LPCSTR' {aka 'const char*'}
+   WriteConsoleOutputCharacter(hConsole, screen, nScreenWidth * nScreenHeight, { 0,0 }, &dwBytesWritten);
+                                         ^~~~~~
+In file included from c:\mingw\include\windows.h:43,
+                 from D:\dainamBT\LapTrinh\visualC++\at_home\netstudy\videos-master\OneLoneCoder_CommandLineFPS.cpp:78:
+c:\mingw\include\wincon.h:299:51: note:   initializing argument 2 of 'BOOL WriteConsoleOutputCharacterA(HANDLE, LPCSTR, DWORD, COORD, PDWORD)'
+ WINAPI BOOL WriteConsoleOutputCharacterA (HANDLE, LPCSTR, DWORD, COORD, PDWORD);
+                                                   ^~~~~~
